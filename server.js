@@ -55,7 +55,7 @@ const Message = client.db("ChatApp").collection("messages");
 const server = http.createServer(app);
 const io = socketIo(server, {
   cors: {
-    origin: "http://localhost:3000",
+    origin: "https://vxp8504.uta.cloud/",
     methods: ["GET", "POST"],
     allowedHeaders: ["my-custom-header"],
     credentials: true
